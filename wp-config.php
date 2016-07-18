@@ -20,23 +20,17 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'sampledb');
-
+define('DB_NAME', $_ENV['OPENSHIFT_APP_NAME']);
 /** MySQL database username */
-define('DB_USER', '	user0IH');
-
+define('DB_USER', $_ENV['OPENSHIFT_DB_USERNAME']);
 /** MySQL database password */
-define('DB_PASSWORD', '	qoYMlaicAV3DDbj7');
-
+define('DB_PASSWORD', $_ENV['OPENSHIFT_DB_PASSWORD']);
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
-
+define('DB_HOST', $_ENV['OPENSHIFT_DB_HOST']);
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
-
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
 /**#@+
  * Authentication Unique Keys and Salts.
  *
