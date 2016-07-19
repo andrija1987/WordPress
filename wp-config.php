@@ -26,11 +26,12 @@ define('DB_USER', 'user7LH');
 /** MySQL database password */
 define('DB_PASSWORD', 'onyygTotwl3egtMw');
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+define('DB_PORT', '3306');
 /**#@+
  * Authentication Unique Keys and Salts.
  *
