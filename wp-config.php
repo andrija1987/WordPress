@@ -24,7 +24,7 @@ define('DB_NAME', 'wordpress');
 /** MySQL database username */
 define('DB_USER', 'user7LH');
 /** MySQL database password */
-define('DB_PASSWORD', 'onyygTotwl3egtMw']);
+define('DB_PASSWORD', 'onyygTotwl3egtMw');
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 /** Database Charset to use in creating database tables. */
