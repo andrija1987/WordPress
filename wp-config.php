@@ -22,11 +22,11 @@
 /** The name of the database for WordPress */
 define('DB_NAME', 'wordpress');
 /** MySQL database username */
-define('DB_USER', 'user7LH');
+define('DB_USER', 'wordpress');
 /** MySQL database password */
-define('DB_PASSWORD', 'onyygTotwl3egtMw');
+define('DB_PASSWORD', 't8ePMRXendRyiDTS');
 /** MySQL hostname */
-define('DB_HOST', '127.0.0.1');
+define('DB_HOST', '172.17.0.12');
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
